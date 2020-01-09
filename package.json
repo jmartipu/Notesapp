@@ -1,0 +1,19 @@
+{
+  "name": "notes",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "cross-env PORT=4242 DEBUG=notes:* node ./bin/www",
+    "server1": "cross-env PORT=4243 DEBUG=notes:* node ./bin/www",
+    "server2": "cross-env PORT=4244 DEBUG=notes:* node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "cross-env": "^6.0.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "hbs": "~4.0.4",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1"
+  }
+}
